@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>User List</h2>
+    <ul *ngIf="users.length > 0; else noData">
+      <li *ngFor="let user of users">
+        <strong>Name:</strong> {{ user.name }} | <strong>Age:</strong> {{ user.age }} | <strong>Email:</strong> {{ user.email }}
+      </li>
+    </ul>
+    <ng-template #noData>
+      <p>No user data available.</p>
+    </ng-template>
+    <div *ngIf="errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+  

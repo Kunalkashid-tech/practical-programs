@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "John Doe", "active": true },
+    { "id": 2, "name": "Jane Smith", "active": false },
+    { "id": 3, "name": "Alice Johnson", "active": true },
+    { "id": 4, "name": "Bob Brown", "active": true }
+  ]
+  
